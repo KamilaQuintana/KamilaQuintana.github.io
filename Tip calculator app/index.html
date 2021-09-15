@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="./images/logo.svg" alt="logo">
+  </header>
+  <section>
+    <div class="calculator">
+      <div class="top-left">
+        <div class="bill-container">
+          <h4>Bill</h4>
+          <input type="number" id="bill-price" placeholder="0">
+        </div>
+        <div class="tip-selection-container">
+          <h4>Select Tip %</h4>
+          <div class="selection-buttons-grid">
+            <button id="5porcent-btn">5%</button>
+            <button id="10porcent-btn">10%</button>
+            <button id="15porcent-btn">15%</button>
+            <button id="25porcent-btn">25%</button>
+            <button id="50porcent-btn">50%</button>
+            <input type="number" id="custom-porcent" placeholder="Custom %">
+          </div>
+        </div>
+        <div class="number-of-people-container">
+          <h4>Number of people</h4>
+          <input type="number" id="number-of-people" placeholder="0">
+        </div>
+      </div>
+      <div class="totals-container">
+        <div class="tip-amount-container">
+          <div class="tip-amount-title-container">
+            <h5>Tip Amount</h5>
+            <h6>/ person</h6>
+          </div>
+          <p id="tip-amount-result-el">$0.00</p>
+        </div>
+        <div class="total-container">
+          <div class="total-title-container">
+            <h5>Total</h5>
+            <h6>/ person</h6>
+          </div>
+          <p id="total-result-el">$0.00</p>
+        </div>
+        <button id="reset-btn" class="disabled">RESET</button>
+      </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://kamilaquintana.github.io/" target="_blank">Kamila</a>.
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
