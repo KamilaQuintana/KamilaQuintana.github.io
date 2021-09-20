@@ -406,7 +406,7 @@ text-align: left;
   margin-top: 10px;
   margin-bottom: 5px;
 }
-#projects .project-info a {
+#projects .project-info p a {
   color: #00007b;
   font-weight: 400;
 }  
