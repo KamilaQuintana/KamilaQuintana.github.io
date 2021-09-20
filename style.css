@@ -406,10 +406,13 @@ text-align: left;
   margin-top: 10px;
   margin-bottom: 5px;
 }
+#projects .project-info a {
+  color: #00007b;
+  font-weight: 400;
+}  
 #projects .project-img {
   flex-basis: 50%;
   width: 100%;
-  height: 300px;
   overflow: hidden;
   position: relative;
   transition: .3s ease transform;
@@ -731,6 +734,9 @@ padding-bottom: 10px;
   }
   #projects .project-info {
   height: 300px;
+  }
+  #projects .project-img {
+    height: 300px;
   }
   #about .about {
   flex-direction: row;
